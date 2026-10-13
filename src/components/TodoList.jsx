@@ -25,7 +25,6 @@ function TodoList() {
         <TodoItem
           title="Complete Assignment"
           description="Build Todo Application"
-          completed={true}
         />
       </div>
     </div>

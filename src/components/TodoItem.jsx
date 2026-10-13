@@ -1,22 +1,9 @@
-function TodoItem({ title, description, completed }) {
+function TodoItem({ title, description }) {
   return (
     <div className="flex items-center justify-between rounded-lg bg-white p-4 shadow-sm">
       <div className="flex items-center gap-3">
-        <input
-          type="checkbox"
-          checked={completed}
-          readOnly
-          className="h-5 w-5"
-        />
-
         <div>
-          <h3
-            className={`font-medium ${
-              completed ? "text-gray-400 line-through" : "text-gray-800"
-            }`}
-          >
-            {title}
-          </h3>
+          <h3 className="font-medium  text-gray-800">{title}</h3>
 
           <p className="text-sm text-gray-500">{description}</p>
         </div>
