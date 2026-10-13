@@ -8,6 +8,12 @@ function TodoForm() {
           className="flex-1 rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500"
         />
 
+        <input
+          type="text"
+          placeholder="Enter your Description"
+          className="flex-1 rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500"
+        />
+
         <button className="rounded-md bg-blue-600 px-5 py-2 font-medium text-white hover:bg-blue-700">
           Add
         </button>
